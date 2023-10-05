@@ -100,7 +100,7 @@ Joblib provides two functions for saving and loading models: dump and load. To s
 
 One Hot Encoding can be defined as a process of transforming categorical variables into numerical format before fitting and training a Machine Learning algorithm. For each categorical variable, One Hot Encoding produces a numeric vector with a length equal to the number of categories present in the feature. We also eliminate Dummy variable Trap by discarding one of the dummy variable. 
 
-## 6) Training and Testing Data ##
+### 6) Training and Testing Data ###
 
 We can train and test the model by splitting the given diverse data set into 2 parts test data and train data with pre-defined proportions. This can be achieved by scikit library
 
