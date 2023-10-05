@@ -104,6 +104,16 @@ One Hot Encoding can be defined as a process of transforming categorical variabl
 
 We can train and test the model by splitting the given diverse data set into 2 parts test data and train data with pre-defined proportions. This can be achieved by scikit library
 
+### 7) Logistic Regression Binary Classification ###
+
+The basis of logistic regression is the logistic function, also called the sigmoid function, which takes in any real valued number and maps it to a value between 0 and 1. Logistic regression model takes a linear equation as input and use logistic function and log odds to perform a binary classification task. Here, we take HR_survey based dataset from Kaggle and perform binary classification.
+
+### 8) Logistic Regression MultiClass Classification ###
+
+the multinomial logistic regression algorithm is an extension to the logistic regression model that involves changing the loss function to cross-entropy loss and predict probability distribution to a multinomial probability distribution to natively support multi-class classification problems. Here, we try to identify the hand written digits (0,1,2,.....,9 -> multiclass) and recognize thw digits using Logistic Regression.
+
+**Confusion Matrix** - We also use confusion Matrix to understand where our model fails to predict and where it predicts accurately
+
 ## Acknowledgements
 
  - [CodeBasics](https://www.youtube.com/@codebasics)
