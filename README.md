@@ -92,6 +92,18 @@ $\ m_{new} = m - Learning Rate * \frac{\partial MSE}{\partial m} $
 
 These equations together make the Gradient Descent Algorithm.
 
+### Save Model using JobLib and Pickle ###
+
+Joblib provides two functions for saving and loading models: dump and load. To save a model using Joblib, you need to import the dump function from the joblib library and call the dump function with the model and the file name. While the “pickle” module provides a way to serialize and deserialize Python objects, including trained machine learning models. By saving a trained model using the pickle module, you can reuse the model for making predictions on new data, without having to retrain the model from scratch.
+
+### One Hot Encoding ###
+
+One Hot Encoding can be defined as a process of transforming categorical variables into numerical format before fitting and training a Machine Learning algorithm. For each categorical variable, One Hot Encoding produces a numeric vector with a length equal to the number of categories present in the feature. We also eliminate Dummy variable Trap by discarding one of the dummy variable. 
+
+## Training and Testing Data ##
+
+We can train and test the model by splitting the given diverse data set into 2 parts test data and train data with pre-defined proportions. This can be achieved by scikit library
+
 ## Acknowledgements
 
  - [CodeBasics](https://www.youtube.com/@codebasics)
